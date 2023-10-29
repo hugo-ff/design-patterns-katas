@@ -9,12 +9,12 @@ describe('ComputerBuilder', () => {
     const computerDirector = new ComputerDirector();
     const gamingComputerBuilder = new GamingComputerBuilder();
 
-    computerDirector.constructComputer(gamingComputerBuilder);
+    computerDirector.constructGamingComputer(gamingComputerBuilder);
     const gamingComputer = gamingComputerBuilder.getProduct();
 
     // Assert specific details of the custom gaming computer
-    expect(gamingComputer.getCPU()).toEqual('High-Performance Gaming CPU');
-    expect(gamingComputer.getRAM()).toEqual('32GB DDR4');
+    expect(gamingComputer.getCpu()).toEqual('High-Performance Gaming CPU');
+    expect(gamingComputer.getRam()).toEqual('32GB DDR4');
     expect(gamingComputer.getStorage()).toEqual('1TB SSD + 2TB HDD');
     expect(gamingComputer.getGraphicsCard()).toEqual('NVIDIA RTX 3080');
   });
@@ -23,12 +23,12 @@ describe('ComputerBuilder', () => {
     const computerDirector = new ComputerDirector();
     const businessComputerBuilder = new BusinessComputerBuilder();
 
-    computerDirector.constructComputer(businessComputerBuilder);
+    computerDirector.constructBusinessComputer(businessComputerBuilder);
     const businessComputer = businessComputerBuilder.getProduct();
 
     // Assert specific details of the custom business computer
-    expect(businessComputer.getCPU()).toEqual('Business-Class CPU');
-    expect(businessComputer.getRAM()).toEqual('16GB DDR4');
+    expect(businessComputer.getCpu()).toEqual('Business-Class CPU');
+    expect(businessComputer.getRam()).toEqual('16GB DDR4');
     expect(businessComputer.getStorage()).toEqual('512GB SSD');
     expect(businessComputer.getGraphicsCard()).toEqual('Integrated Graphics');
   });
@@ -38,20 +38,20 @@ describe('ComputerBuilder', () => {
     const gamingComputerBuilder = new GamingComputerBuilder();
     const businessComputerBuilder = new BusinessComputerBuilder();
 
-    computerDirector.constructComputer(gamingComputerBuilder);
+    computerDirector.constructGamingComputer(gamingComputerBuilder);
     const gamingComputer = gamingComputerBuilder.getProduct();
-    computerDirector.constructComputer(businessComputerBuilder);
+    computerDirector.constructBusinessComputer(businessComputerBuilder);
     const businessComputer = businessComputerBuilder.getProduct();
 
     // Assert specific details of the custom gaming computer
-    expect(gamingComputer.getCPU()).toEqual('High-Performance Gaming CPU');
-    expect(gamingComputer.getRAM()).toEqual('32GB DDR4');
+    expect(gamingComputer.getCpu()).toEqual('High-Performance Gaming CPU');
+    expect(gamingComputer.getRam()).toEqual('32GB DDR4');
     expect(gamingComputer.getStorage()).toEqual('1TB SSD + 2TB HDD');
     expect(gamingComputer.getGraphicsCard()).toEqual('NVIDIA RTX 3080');
 
     // Assert specific details of the custom business computer
-    expect(businessComputer.getCPU()).toEqual('Business-Class CPU');
-    expect(businessComputer.getRAM()).toEqual('16GB DDR4');
+    expect(businessComputer.getCpu()).toEqual('Business-Class CPU');
+    expect(businessComputer.getRam()).toEqual('16GB DDR4');
     expect(businessComputer.getStorage()).toEqual('512GB SSD');
     expect(businessComputer.getGraphicsCard()).toEqual('Integrated Graphics');
   });

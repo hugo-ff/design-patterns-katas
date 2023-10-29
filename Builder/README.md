@@ -84,7 +84,7 @@ class ItalianMealBuilder implements MealBuilder {
   private meal: ItalianMeal;
 
   constructor() {
-    this.reset();
+    this.meal = new ItalianMeal();
   }
 
   reset() {
