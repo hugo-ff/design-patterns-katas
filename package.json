@@ -1,0 +1,36 @@
+{
+  "name": "design-patterns-katas",
+  "version": "1.0.0",
+  "description": "A collection of design pattern katas implemented in TypeScript. Practice and master various design patterns through hands-on coding exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "design patterns",
+    "katas",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-ff/design-patterns-katas.git"
+  },
+  "author": "Hugo Flotts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugo-ff/design-patterns-katas/issues"
+  },
+  "homepage": "https://github.com/hugo-ff/design-patterns-katas#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
