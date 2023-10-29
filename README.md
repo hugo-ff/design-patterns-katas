@@ -73,4 +73,4 @@ If you'd like to contribute to this repository, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the ISC License.
