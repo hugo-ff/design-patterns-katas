@@ -1,6 +1,6 @@
 # Singleton Design Pattern
 
-![Singleton](singleton_image.png)
+![Singleton](../../assets/singleton_image.png)
 
 ## Table of Contents
 
