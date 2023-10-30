@@ -1,6 +1,6 @@
 # Adapter Design Pattern
 
-![Adapter](adapter_image.png)
+![Adapter](../../assets/adapter_image.png)
 
 ## Table of Contents
 

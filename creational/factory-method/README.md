@@ -1,6 +1,6 @@
 # Factory Method Design Pattern
 
-![Factory Method](factory_method_image.png)
+![Factory Method](../../assets/factory_method_image.png)
 
 ## Table of Contents
 

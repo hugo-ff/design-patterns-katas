@@ -1,6 +1,6 @@
 # Builder Design Pattern
 
-![Builder](builder_image.png)
+![Builder](../../assets/builder_image.png)
 
 ## Table of Contents
 
