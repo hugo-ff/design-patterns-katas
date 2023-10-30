@@ -15,7 +15,6 @@
   - [Client Code](#client-code)
 - [Pros and Cons](#pros-and-cons)
 - [Related Patterns](#related-patterns)
-- [Relationships with Other Patterns](#relationships-with-other-patterns)
 - [License](#license)
 
 ## Introduction

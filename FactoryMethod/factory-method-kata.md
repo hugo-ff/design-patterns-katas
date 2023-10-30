@@ -22,9 +22,3 @@ You are tasked with building an Online Course Platform that caters to different 
 
 - The platform should support the addition of new course types without modifying existing code.
 - The course factories should encapsulate the logic for creating instances of their respective courses.
-
-## Additional Challenges
-
-1. Implement a mechanism to allow users to enroll in courses and display information about their enrolled courses.
-2. Extend the system to support additional course types without modifying the existing code.
-3. Implement a logging mechanism to track the creation of course instances using the Factory Method.
