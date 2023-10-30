@@ -1,6 +1,6 @@
 # Strategy Design Pattern
 
-![Strategy](strategy_image.png)
+![Strategy](../../assets/strategy_image.png)
 
 ## Table of Contents
 
