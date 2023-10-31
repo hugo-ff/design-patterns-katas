@@ -1,6 +1,6 @@
 # Design Patterns Katas
 
-![Design Patterns](design_patterns_image.png)
+![Design Patterns](./assets/design_patterns_image.png)
 
 This repository contains my solutions for various design patterns katas. Each kata focuses on implementing and understanding a specific design pattern. Feel free to explore the solutions, learn, and contribute!
 
