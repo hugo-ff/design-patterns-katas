@@ -1,26 +1,20 @@
-**Kata: Smart Home Devices Bridge**
+# Kata: Smart Home Devices Bridge
 
-**Description:**
+## Description
 
 Imagine that you are developing a system to manage devices in a smart home. These devices could be lights, thermostats, or any other connected device. Each type of device has its own characteristics and specific methods.
 
 The challenge is to implement a system that allows devices to interact with different smart home platforms. For example, you might have a platform for Apple HomeKit devices and another for Google Home devices. Each platform has its own set of APIs and ways to interact with devices.
 
-**Problem:**
+## Problem
 
 1. Create an interface `Device` that declares common methods for all devices, such as `turnOn`, `turnOff`, and `getStatus`.
 
-2. Implement concrete classes for two types of devices: `LightDevice` and `ThermostatDevice`. These devices should implement the `Device` interface and have specific methods, such as `changeColor` for lights and `setTemperature` for thermostats.
+2. Implement concrete classes for two types of devices: `LightDevice` and `ThermostatDevice`. These devices should implement the `Device` interface and have specific methods, such as `changeBrightness` for lights and `setTemperature` for thermostats.
 
-3. Define an interface `HomePlatform` that declares methods like `addDevice` and `removeDevice`, as well as a method `operateDevice` that takes a device and performs operations on it.
+3. Implement an interface `DeviceRemote` that allows a user to interact with a device without knowing the underlying platform.
 
-4. Implement concrete classes for two smart home platforms: `AppleHomeKit` and `GoogleHome`. These classes should implement the `HomePlatform` interface and manage the list of associated devices.
-
-5. Implement an interface `DeviceRemote` that allows a user to interact with a device without knowing the underlying platform. Include methods such as `turnOn`, `turnOff`, `operateDevice`, etc.
-
-6. Create a class `SmartHomeRemote` that implements the `DeviceRemote` interface. This class should use the Bridge pattern to handle the connection between the user interface and the specific smart home platforms.
-
-**Hints:**
+### Hints
 
 - Use TypeScript to take advantage of static typing and facilitate interface and class management.
 - Apply the Bridge pattern to decouple the abstraction (user interface) from the implementation (smart home platforms).
